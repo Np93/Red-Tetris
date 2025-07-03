@@ -1,0 +1,10 @@
+{
+  "name": "red-tetris",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"node server/server.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
